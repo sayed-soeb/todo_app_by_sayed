@@ -1,0 +1,147 @@
+/* Todo.css */
+body {
+    background: url("../public/new.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -3;
+}
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6); /* Slightly transparent light background color */
+    padding: 10px;
+    min-height: 8vh;
+}
+.container h1 {
+    margin-top: 0%;
+}
+
+.todocont {
+    display: flex;
+    margin-top: 50px;
+}
+
+.todolist {
+    width: 60%;
+    min-height: 60vh;
+    box-shadow: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right,rgb(92, 255, 241),rgb(165, 235, 224),rgb(34, 102, 160));
+}
+
+/* Input container styles */
+.input {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+/* Input box and Add Todo button styles */
+.input {
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    border: none;
+}
+
+.button {
+    background-color: #39216d; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+/* TODO list container styles */
+.todo-list-container {
+    width: 80%;
+    padding: 10px;
+}
+
+/* Completed TODO styles */
+.completed-todo {
+    text-decoration: line-through;
+    background-color: #881847;
+}
+
+.todocont h1 {
+    text-align: center;
+    color: #2b3a91;
+}
+
+/* Center-align the TODO items */
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+/* Add a border to TODO items */
+li {
+    padding: 5px;
+    background-color: #2b3a91;
+    box-shadow: #212b78;
+    margin: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+/* Pie chart container styles */
+.pie-chart-container {
+    width: 20%;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent light background color */
+}
+.actions {
+    display: flex;
+    justify-content: flex-end; /* Align icons to the right end */
+    
+  }
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  color: rgb(224, 254, 255);
+}
+
+.delete-icon:hover {
+  color: red;
+}
+
+.todoss {
+    display: flex;
+    padding: 5px;
+    background-color: #2b3a91;
+    box-shadow: #212b78;
+    margin: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.todoss .edit-icon{
+    margin-top: 10px;
+}
+.todoss .delete-icon{
+    margin-top: 10px;
+}
+ .todoss li {
+    width: 90%;
+    margin-left: 45px;
+ }
